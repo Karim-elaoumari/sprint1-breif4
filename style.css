@@ -112,7 +112,7 @@ header bottom:hover{
     font-size: 11px;
     box-shadow: 0 4px black;
     margin-left: 5px;
-
+    padding: 6px;
 }
 .checkmark{
     display: flex;
@@ -315,9 +315,9 @@ footer span::before{
         display: flex;
         justify-content: center;
     }
-   .right img{
+   /* .right img{
         width: 350px;
-   }
+   } */
    
     
     .pricing .cards{
@@ -325,7 +325,7 @@ footer span::before{
         flex-wrap: wrap;
     }
 }
-@media (max-width: 767px) {
+@media (min-width: 767px) {
     /* JM7 Pour centrer le contenu */
     body{
         max-width: 500px;
