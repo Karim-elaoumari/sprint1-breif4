@@ -132,8 +132,42 @@ header bottom:hover{
 .right img{
     width: 100%;
 }
+/* End banner */
 
+/* Mehdi: our-advantages */
 
+.our_adventages {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.our_adventages > div {
+    background-color: #ffffff;
+    border: 1px solid #d7d7d7;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.our_adventages h2 {
+    color: #0e0e0e;
+    margin: 5px auto;
+}
+
+.our_adventages p {
+    color: #ababab;
+    margin: 10px auto;
+}
+
+.our_adventages strong {
+    color: #0e0e0e;
+}
+
+/* End our-advantages */
 
 /*JM7*/
 footer p{
