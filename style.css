@@ -8,52 +8,8 @@ body {
     background-color: #FBF7EE;
     margin: 0 auto;
 }
-
-
-/*JM7*/
-footer p{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 13px;
-    font-weight: 500;
-    color: #0C459F;
-}
-footer span::before{
-    content: '\1F9E1';
-    color: red;
-    width: 100px;
-}
-/*    */
-/* ************************************************ */
-@media (min-width: 425px) {
-}
-@media (max-width: 767px) {
-    /* JM7 Pour centrer le contenu */
-    body{
-        max-width: 500px;
-    }
-    /* */
-}
-/* ************************************************ */
-@media (min-width: 1024px) {
-
-    /* JM7 Pour centrer le contenu */
-    body{
-        max-width: 1140px;
-    }
-    /* */
-}
-/* nohaila */
 /* ****************************nouhaila*********************************** */
-* {
-    padding: 0;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-body {
-    background-color: antiquewhite;
-    margin: 0 auto;
-}
 
 .parent {
     display: flex;
@@ -121,11 +77,80 @@ header bottom:hover{
     color: rgb(32, 32, 107);
    
 }
+  /* banner */
+
+  .bannerTitle{
+    font-size: 25px;
+    text-align: center;
+    color: #13366D;
+ }
+
+ .left p{
+    text-align: center;
+    color: #A3A3A3;
+    margin-top: 15px;
+ }
+
+ form{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+.left input{
+    width: 230px;
+    border: 1px solid #A3A3A3;
+    border-radius: 5px;
+    padding: 9px;
+}
+
+.left button{
+    background-color: #0B47A7;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 11px;
+    box-shadow: 0 4px black;
+    margin-left: 5px;
+
+}
+.checkmark{
+    display: flex;
+    justify-content: center;
+    margin:15px;
+}
+.checkmark img{
+    width: 12px;
+    height: 12px;
+    margin-left:15px;
+}
+.checkmark span{
+    color: #A3A3A3;
+    font-size: 10px;
+    margin-left:5px;
+}
+.right img{
+    width: 100%;
+}
 
 
+
+/*JM7*/
+footer p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #0C459F;
+}
+footer span::before{
+    content: '\1F9E1';
+    color: red;
+    width: 100px;
+}
+/*    */
 /* ************************************************ */
-@media only screen and (min-width: 467px) {
-
+@media (min-width: 425px) {
+    /* header */
     header .parent ol {
         display: flex;
         
@@ -142,17 +167,38 @@ header bottom:hover{
         display: flex;
         justify-content: space-between;
     }
+    /* end of header */
+
+    .right{
+        display: flex;
+        justify-content: center;
+    }
+   .right img{
+        width: 350px;
+   }
 }
 @media (max-width: 767px) {
-    /* Pour centrer le contenu */
+    /* JM7 Pour centrer le contenu */
     body{
         max-width: 500px;
     }
     /* */
+    .right{
+        display: flex;
+        justify-content: center;
+    }
+   .right img{
+        width: 500px;
+    
+    }
 }
 /* ************************************************ */
-@media only screen and (min-width: 1024px) {
-
+@media (min-width: 1024px) {
+    /* JM7 Pour centrer le contenu */
+    body{
+        max-width: 1140px;
+    }
+    /* */
     .parent ol {
         display: flex;
     }
@@ -175,12 +221,58 @@ header bottom:hover{
         width: 105px;
         font-size: large;
     }
+    /* banner */
+    .banner{
+        display: flex;
+        justify-content: space-between;
+    }
+    .right{
+        width: 50%;
 
+    }
+    .left .bannerTitle{
+        font-size: 40px;
+        margin-top: 90px;
+        text-align: left;
+    }
+    .left p{
+        text-align: left;
+        letter-spacing: 1.5px;
+    }
+    form{
+        margin-top: 20px;
+        display:flex;
+        justify-content:flex-start
+    }
+    .left input{
+        width: 390px;
+    }
+    .left button{
+        width: 90px;
+    }
+    .checkmark{
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 0;
+    }
+    .checkmark img{
+        width: 12px;
+        height: 12px;
+        margin-left:0;
+    }
+    .checkmark span{
+        color: #A3A3A3;
+        font-size: 15px;
+        margin-left:5;
+    }
+    img.creditIcon{
+        margin-left: 80px;
 
-    /* Pour centrer le contenu */
-    body{
-        max-width: 1140px;
     }
     
+   
 }
-/* ****************************nouhaila*********************************** */
+
+
+
+
