@@ -1,12 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 body {
     background-color: #FBF7EE;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* ****************************nouhaila*********************************** */
 
@@ -168,6 +168,165 @@ header bottom:hover{
 }
 
 /* End our-advantages */
+/* karim pricing*/
+.pricing{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pricing h2{
+    font-size:25px;
+    color:#13366d;
+    margin-left: 10px;
+    
+   
+
+}
+.pricing p{
+    color:#cbc9c5;
+    font-size:medium;
+    margin-left: 10px;
+}
+.pricing .cards{
+    display: flex;
+    
+    flex-direction: column;
+    margin: 0 auto;
+}
+.pricing .cards div{
+    margin:0 auto;
+    
+    width:240px;
+    height:290px;
+    border:2px solid #c2c2c2;
+    border-radius: 4px;
+    background-color: #fff3d9;
+    margin-top: 5px;
+}
+.pricing .cards .card4{
+    background-color:#fbf7ee;
+    height:auto;
+}
+.pricing .cards h4{
+    margin: 0;
+    margin-top: 5px;
+    color: white;
+}
+
+.pricing .cards div .title {
+    margin-left: 5%;
+    margin-top: 15px;
+    border:1px solid #13366d;
+    background-color: #13366d;
+    border-radius: 20px;
+    width:auto;
+    height: 28px;
+    box-shadow:1px 1px 4px  #13366d ;
+}
+.pricing .cards div .action {
+    margin-left: 5%;
+    margin-top: 15px;
+    border:1.2px solid #13366d;
+    border-radius: 4px;
+    background-color:#fff3d9;
+    width:90%;
+    height: 34px;
+    color:#13366d;
+    font-size: medium;
+   font-weight: 500;
+
+}
+.pricing .cards .action:hover{
+    background-color: #13366d;
+    color: white;
+    box-shadow: 1px 3px 4px  #08234f;
+}
+.pricing .cards ul{
+    list-style: none;
+    font-family: Segoe UI Emoji;
+    margin-left:10px;
+    width:100%;
+    margin-top: 5px;
+    padding-right: 5%;
+    
+}
+.pricing .cards li{
+    margin-bottom: 10px;
+}
+.pricing .cards p{
+    font-size:medium;
+    color:#041329;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.pricing .text{
+    padding-top:5px;
+}
+
+@media only screen and (min-width:786px){
+ 
+    .pricing .cards{
+        
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+   
+
+
+}
+
+@media only screen and (min-width:620px){
+    
+    .pricing .cards{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+}
+@media only screen and (min-width:890px){
+  
+    .pricing .cards{
+        flex-direction: row;
+        margin: 0 auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .pricing h2{
+        font-size:40px;
+        color:#13366d;
+       
+    
+    }
+    .pricing .text{
+        color:#cbc9c5;
+        font-size:medium;
+    }
+
+
+}
+@media only screen and (min-width:1200px){
+   
+    .pricing .cards{
+        justify-content:center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .pricing h2{
+        font-size:40px;
+        color:#13366d;
+       
+    
+    }
+    .pricing p{
+        color:#cbc9c5;
+        font-size:large;
+    }
+
+
+}
+/* karim pricing*/
 
 /*JM7*/
 footer p{
