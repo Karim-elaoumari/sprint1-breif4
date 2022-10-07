@@ -1,0 +1,194 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FBF7EE;
+    margin: 0 auto;
+}
+.parent {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    height: 60px;
+    
+}
+
+.parent ol {
+    display: none;
+}
+
+#logo {
+    color: rgb(32, 32, 107);
+    font-size: medium;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 10px;
+   
+}
+
+header ul li a {
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: small;
+}
+
+header ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    margin-top: 0px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+  header ol li a {
+    color: black;
+    text-decoration: none;
+    
+
+}
+
+header button {
+    background: rgb(32, 32, 107);
+    color: white;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    box-shadow: 2px 3px gray;
+    border-radius: 10px 5px;
+    margin: 0;
+}
+
+header bottom:hover{
+    background-color:white ;
+    color: rgb(32, 32, 107);
+   
+}
+.primary{
+    color: #0C48A6;
+}
+.secondary{
+    color: #B5B4B2;
+}
+body{
+    background-color: #FBF7EE;
+}
+h1 , p{
+    margin: 5px 0 10px;
+}
+.contact-us-container{
+    max-width: 425px;
+    margin: 50px auto;
+}
+.map{
+    height: 250px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-field, .submit-btn{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #B5B4B2;
+    border-radius: 5px;
+}
+.submit-btn{
+    font-size: 15px;
+    background-color: inherit;
+    color: #0C48A6;
+    border: 2px solid #0C48A6;
+}
+.submit-btn:hover{
+    background-color: #0C48A6;
+    color: white;
+    border-top: 2px solid inherit;
+    border-bottom: 2px solid black;
+}
+footer p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #0C459F;
+}
+footer span::before{
+    content: '\1F9E1';
+    color: red;
+    width: 100px;
+}
+@media (min-width: 425px) {
+    /* header */
+    header .parent ol {
+        display: flex;
+        
+    }
+
+    header  ul li a {
+        padding-left: 15px;
+    }
+
+    header button {
+        width: 90px;
+    }
+     .parent{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (min-width:767px) {
+    .contact-us-container{
+        display: flex;
+        max-width: 767px;
+    }
+    .contact-us-container .map{
+        margin-right: 20px;
+        height: 450px;
+    }
+    .contact-us-container .form{
+        border: 1px solid #B5B4B2;
+        border-radius: 3px;
+        padding: 10px;
+        background-color: #fcfaf5;
+    }
+}
+@media (min-width: 1024px) {
+    /* JM7 Pour centrer le contenu */
+    body{
+        max-width: 1140px;
+    }
+    /* */
+    .parent ol {
+        display: flex;
+    }
+
+    header ol li a {
+        color: black;
+        text-decoration: none;
+        padding-left: 20px;
+        font-size: large;
+    }
+
+    header ul li a {
+        color: black;
+        text-decoration: none;
+        padding-left: 20px;
+        font-size: large;
+    }
+
+    header button {
+        width: 105px;
+        font-size: large;
+    }
+}
