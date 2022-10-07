@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FBF7EE;
+    margin: 0 auto;
+}
+
+
+/*JM7*/
+footer p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: #0C459F;
+}
+footer span::before{
+    content: '\1F9E1';
+    color: red;
+    width: 100px;
+}
+/*    */
+/* ************************************************ */
+@media (min-width: 425px) {
+}
+@media (max-width: 767px) {
+    /* JM7 Pour centrer le contenu */
+    body{
+        max-width: 500px;
+    }
+    /* */
+}
+/* ************************************************ */
+@media (min-width: 1024px) {
+
+    /* JM7 Pour centrer le contenu */
+    body{
+        max-width: 1140px;
+    }
+    /* */
+}
